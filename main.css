@@ -1,0 +1,90 @@
+body {
+  background-color: white;
+  color: #203020;
+}
+
+
+p {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+svg {
+  width: 65px;
+  position: relative;
+  left: 5px;
+  top: -30px;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding: 70px;
+}
+
+.intro {
+  left: 0px;
+  background-color: white;
+}
+
+.image {
+  right: 0px;
+  background-image: url("https://github.com/drfarrell/obeiskincare/blob/master/Obei_Skincare_Leaves-min.jpg?raw=true");
+  background-repeat: none;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  background-color: #E7DBCF;
+}
+
+.greeting {
+  padding-top: 100px;
+}
+
+#mc_embed_signup {
+  position: relative;
+  top: 50px;
+  left: -3%;
+}
+
+#mc_embed_signup label {
+  font-weight: 400;
+  font-size: 12px;
+  position: relative;
+  top: 10px;
+}
+
+.footer {
+  text-transform: uppercase;
+}
+
+ul {
+  font-size: 12px;
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
+  padding: 0px; 
+  position: absolute;
+  bottom: 20px;
+}
+
+ul a {
+  color: black;
+}
+
+ul a:hover {
+  color: green;
+}
+
+ul li{
+  position: relative;
+  left: -20px;
+  margin: 10px;
+  padding: 0px;
+  float:left;
+}
