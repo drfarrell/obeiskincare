@@ -19,12 +19,12 @@ svg {
 
 .split {
   height: 100%;
-  width: 50%;
   position: fixed;
   z-index: 1;
   top: 0;
   overflow-x: hidden;
   padding: 70px;
+  width: 50%;
 }
 
 .intro {
@@ -40,15 +40,16 @@ svg {
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; 
   background-color: #E7DBCF;
+  width: 50%;
 }
 
 .greeting {
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 #mc_embed_signup {
   position: relative;
-  top: 50px;
+  top: 30px;
   left: -3%;
 }
 
@@ -83,8 +84,93 @@ ul a:hover {
 
 ul li{
   position: relative;
-  left: -20px;
+  left: -15px;
   margin: 10px;
   padding: 0px;
   float:left;
 }
+
+/* Micro small devices (phones, 400px and down) */
+@media only screen and (max-width: 400px) {
+  
+  svg {
+    width: 60px;
+  }
+  
+  .split {
+    padding: 18px;
+    width: 80%;
+  }
+  
+  .image {
+    width: 20%;
+  }
+  
+  ul li{
+    margin: 4px;
+  }
+  
+  .greeting {
+    padding-top: 30px;
+  }
+
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 400px) {
+  
+  .split {
+    padding: 25px;
+    width: 70%;
+  }
+  
+  .image {
+    width: 30%;
+  }
+  
+  ul li{
+    margin: 4px;
+  }
+
+  .greeting {
+    padding-top: 40px;
+  }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+  .split {
+    padding: 30px;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+  .split {
+    padding: 30px;
+    width: 50%;
+  }
+  
+  .image {
+    width: 50%;
+  }
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+  .split {
+    padding: 70px;
+  }
+
+}
+
+
+
